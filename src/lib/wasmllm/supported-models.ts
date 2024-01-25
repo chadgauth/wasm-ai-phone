@@ -43,4 +43,14 @@ export const SUPPORTED_LOCAL_MODELS: {
     wasmUrl:
       "https://huggingface.co/cfahlgren1/wasm-sqlcoder-7b-q4f32_1/resolve/main/sqlcoder-7b-q4f32_1-webgpu.wasm",
   },
+  "tiny-llama": {
+    simpleName: "TinyLLama 1.1B",
+    modelName: "tinyllama-1.1b-q4f32_1",
+    rootUrl:
+      "https://huggingface.co/cfahlgren1/wasm-TinyLlama-1.1B-Chat-q4f342_1",
+    modelParamsUrl:
+      "https://huggingface.co/cfahlgren1/wasm-TinyLlama-1.1B-Chat-q4f342_1/tree/main/params",
+    wasmUrl:
+      "https://huggingface.co/cfahlgren1/wasm-TinyLlama-1.1B-Chat-q4f342_1/blob/main/TinyLlama-1.1B-Chat-v1.0-q4f32_1-webgpu.wasm",
+  },
 };
